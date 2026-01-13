@@ -271,11 +271,15 @@ body {
 
 .ask {
   background: white;
-  padding: 40px 30px;
-  border-radius: 20px;
+  padding: 35px 30px;
+  border-radius: 22px;
   box-shadow: 0 20px 40px rgba(0,0,0,0.2);
   text-align: center;
+
+  width: 90%;
+  max-width: 360px;   /* THIS is the key */
 }
+
 
 .ask p {
   font-size: 22px;
