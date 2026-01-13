@@ -258,3 +258,31 @@ display: flex;
   .photo-grid img { width: 100%; height: auto; border-radius: 10px; }
   .ask { padding: 18px 10px; }
 }
+
+/* ===== SIMPLE UPGRADE (SAFE) ===== */
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #ff758c, #ff7eb3);
+}
+
+.ask {
+  background: white;
+  padding: 40px 30px;
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+.ask p {
+  font-size: 22px;
+}
+
+button {
+  font-size: 18px;
+  padding: 12px 30px;
+  border-radius: 30px;
+}
