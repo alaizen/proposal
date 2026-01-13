@@ -240,3 +240,21 @@ display: flex;
 				justify-content: center;
 				align-items: center;
 }
+
+/* Responsive improvements - paste at end of file */
+.photo-section .photo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 12px;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+@media (max-width: 600px) {
+  .group1 { grid-template-columns: repeat(3, 1fr); gap: 8px; }
+  .crush { font-size: 20px; }
+  #hands { display:none; } /* hides decorative item on small screens */
+  .photo-grid img { width: 100%; height: auto; border-radius: 10px; }
+  .ask { padding: 18px 10px; }
+}
